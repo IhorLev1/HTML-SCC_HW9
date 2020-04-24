@@ -1,0 +1,82 @@
+@media (max-width: 767px) {
+  .holiday-dream {
+    text-align: center;
+    width: 320px;
+    margin: 0 auto;
+  }
+  .holiday-section-sub-title {
+    display: block;
+    width: 220px;
+    margin: 0 auto;
+  }
+  .title-section-parners {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .partners-item {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .partners-item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-header {
+    margin: 0 auto;
+    max-width: 748px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .fluid-background {
+    min-height: 700px;
+  }
+  .background-color {
+    min-height: 700px;
+  }
+
+  .holiday-section-title {
+    font-size: 52px;
+  }
+  .holiday-section-sub-title {
+    font-size: 24px;
+  }
+  .holiday-button {
+    padding: 15px 25px;
+    border-radius: 25px;
+  }
+
+  .partners-list {
+    max-width: 492px;
+    max-height: 520px;
+    margin: 0 auto;
+  }
+  .partners-section-button button {
+    padding: 14px 30px;
+  }
+}
+
+@media (min-width: 942px) {
+  .page-header {
+    max-width: 942px;
+  }
+  .partners-item {
+    min-height: 240px;
+  }
+  .fluid-background {
+    max-height: 100%;
+  }
+  .background-color {
+    max-height: 700px;
+  }
+
+  .flex-man {
+    order: 1;
+  }
+  .flex-second-girl {
+    order: 2;
+  }
+}

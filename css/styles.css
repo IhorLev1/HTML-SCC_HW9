@@ -1,0 +1,195 @@
+body {
+  font-family: "Montserrat", "Roboto", sans-serif;
+}
+
+.fluid-background {
+  min-width: 320px;
+  min-height: 540px;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.content-box {
+  min-width: 320px;
+}
+
+.background-color {
+  background-color: rgba(26, 25, 21, 0.2);
+  min-height: 540px;
+}
+.buttons-header {
+  border: 2px solid rgba(255, 255, 255, 0);
+  padding: 10px 18px;
+  border-radius: 25px;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.buttons-header:hover {
+  border: 2px solid rgba(255, 255, 255, 0.993);
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.logo {
+  text-align: center;
+}
+
+.holiday-section-title {
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+}
+
+.holiday-section-sub-title {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: #ffffff;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+}
+
+.holiday-button {
+  border-radius: 20px;
+  border: none;
+  padding: 14px 50px;
+  background-color: rgb(255, 78, 80);
+  cursor: pointer;
+  outline: none;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.title-section-parners {
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: #333333;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+}
+
+.partners-list {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.partner-img {
+  border-radius: 50%;
+}
+
+.img-box {
+  display: inline-block;
+  position: relative;
+  width: 122px;
+  height: 122px;
+  text-align: center;
+}
+.logo-box {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(255, 78, 80);
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  border: 4px solid #ffffff;
+}
+
+.logo-chemical {
+  background-color: #ffa507;
+}
+.logo-coffee {
+  background-color: #1cd7ad;
+}
+.logo-telegram {
+  background-color: #4e73db;
+}
+
+.logo-partner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.partners-item a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.partner-name {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #333333;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+}
+
+.partner-info {
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 300;
+  color: #666666;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+}
+
+.partners-section-button button {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ff4e50;
+  border-radius: 35px;
+  background-color: #ffffff;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  padding: 10px 74px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #ff4e50;
+  outline: none;
+}
+
+.partners-section-button {
+  text-align: center;
+  outline: none;
+}
