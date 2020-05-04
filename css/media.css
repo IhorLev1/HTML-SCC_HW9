@@ -1,21 +1,23 @@
 @media (max-width: 767px) {
-  .holiday-dream {
+  .logo {
     text-align: center;
-    width: 320px;
-    margin: 0 auto;
+    padding-top: 110px;
   }
+  .holiday-dream {
+    padding-top: 40px;
+    text-align: center;
+  }
+
   .holiday-section-sub-title {
     display: block;
-    width: 220px;
-    margin: 0 auto;
+    padding: 20px 0;
   }
-  .title-section-parners {
-    max-width: 320px;
-    margin: 0 auto;
-  }
+
   .partners-item {
-    margin: 0 auto;
     margin-bottom: 30px;
+  }
+  .partners-section-button {
+    margin-bottom: 58px;
   }
   .partners-item:last-child {
     margin-bottom: 0;
@@ -24,24 +26,29 @@
 
 @media (min-width: 768px) {
   .page-header {
-    margin: 0 auto;
-    max-width: 748px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .fluid-background {
     min-height: 700px;
   }
-  .background-color {
-    min-height: 700px;
+  .partners-item {
+    height: 245px;
   }
-
+  .partners-list .partners-item:nth-child(1) {
+    margin-right: 20px;
+  }
+  .partners-list .partners-item:nth-child(2) {
+    margin-right: 20px;
+  }
+  .page-header {
+    padding-top: 40px;
+  }
+  .holiday-dream {
+    padding-top: 136px;
+  }
   .holiday-section-title {
     font-size: 52px;
+    margin-bottom: 36px;
   }
   .holiday-section-sub-title {
+    margin-bottom: 30px;
     font-size: 24px;
   }
   .holiday-button {
@@ -49,34 +56,47 @@
     border-radius: 25px;
   }
 
-  .partners-list {
-    max-width: 492px;
-    max-height: 520px;
-    margin: 0 auto;
+  .partners-section-button {
+    padding: 42px 0;
   }
-  .partners-section-button button {
-    padding: 14px 30px;
+  .partners-item:nth-child(odd) {
+    margin-bottom: 38px;
   }
 }
 
 @media (min-width: 942px) {
+  .container {
+    max-width: 942px;
+  }
+  .holiday-section-sub-title {
+    font-weight: 300;
+  }
   .page-header {
+    padding: 0;
+    padding-top: 38px;
+  }
+  .title-section-parners {
+    margin-bottom: 38px;
+  }
+  .partners-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     max-width: 942px;
   }
   .partners-item {
-    min-height: 240px;
+    margin-bottom: 0;
   }
-  .fluid-background {
-    max-height: 100%;
-  }
-  .background-color {
-    max-height: 700px;
-  }
-
   .flex-man {
     order: 1;
   }
   .flex-second-girl {
     order: 2;
+  }
+  .partners-list .partners-item:not(:last-child) {
+    margin-right: 20px;
+  }
+  .partners-section-button {
+    padding-top: 0;
   }
 }

@@ -8,171 +8,163 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/bootstrap-grid.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/media.css" />
-    <link rel="stylesheet" href="css/bootstrap-grid.css" />
-    <title>Homework 9</title>
+    <title>Homework9</title>
   </head>
   <body>
-    <div class="fluid-background">
-      <div class="background-color">
-        <header class="page-header container pt-3 pt-md-4">
-          <div class="buttons col-12 col-md-4 col-lg-3">
+    <header class="page-header">
+      <div class="container">
+        <section
+          class="navigation-bar row flex-sm-row-reverse justify-content-sm-between align-items-sm-center"
+        >
+          <div class="buttons col-12 col-sm-4 col-lg-3">
             <button class="log-in buttons-header">Log in</button>
             <button class="sign-up buttons-header">Sign up</button>
           </div>
-          <div class="logo pt-5 pt-md-0 col-md-4 col-lg-3">
+          <div class="logo col-12 col-sm-4">
             <a href="#">URLAUBSGLÜCK</a>
           </div>
-        </header>
-        <section class="holiday-dream pt-4 pt-md-6">
-          <h1 class="holiday-section-title">
+        </section>
+        <section class="holiday-dream row justify-content-sm-center">
+          <h1 class="holiday-section-title col-12 col-sm-10">
             Share your <br />
             holiday dreams
           </h1>
-          <h2 class="holiday-section-sub-title pt-3 pb-3 pt-md-4 pb-md-4">
+          <h2 class="holiday-section-sub-title col-12 col-sm-10">
             And find the perfect partner to fullfill it
           </h2>
-          <div class="button-box col-12 col-md-12 text-center">
+          <div class="button-box col-12 col-sm-12 text-center">
             <button class="holiday-button">
               Find your holiday partner
             </button>
           </div>
         </section>
       </div>
-    </div>
-    <main class="content-box">
-      <section class="partners container pt-6">
-        <div class="row">
-          <h3
-            class="title-section-parners col-12 col-md-12 pb-3 col-lg-12 pb-lg-4"
-          >
-            Meet a partner for your best holiday
-          </h3>
-        </div>
-        <div class="row flex-column flex-lg-row">
-          <ul
-            class="partners-list pb-3 col-12 col-md-10 col-lg-12 d-flex flex-md-column flex-lg-row flex-wrap align-items-md-center"
-          >
-            <li class="partners-item col-sm-8 col-md-5 mb-md-5 col-lg-3 m-lg-0">
-              <div class="img-box">
+    </header>
+    <main class="content-box container">
+      <section
+        class="partners row justify-content-center justify-content-sm-center"
+      >
+        <h3 class="title-section-parners col-12 col-sm-10">
+          Meet a partner for your best holiday
+        </h3>
+        <ul
+          class="partners-list col-sm-12 d-flex align-items-center d-sm-flex flex-sm-wrap justify-content-sm-center flex-lg-nowrap align-items-lg-start"
+        >
+          <li class="partners-item">
+            <div class="img-box">
+              <img
+                class="partner-img"
+                src="img/1.jpg"
+                alt="man1"
+                width="122"
+                height="122"
+              />
+              <div class="logo-box logo-tv">
                 <img
-                  class="partner-img"
-                  src="img/1.jpg"
-                  alt="man1"
-                  width="122"
-                  height="122"
+                  class="logo-partner"
+                  src="img/icons/tv.png"
+                  alt=""
+                  width="16"
+                  height="16"
                 />
-                <div class="logo-box logo-tv">
-                  <img
-                    class="logo-partner"
-                    src="img/icons/tv.png"
-                    alt=""
-                    width="16"
-                    height="16"
-                  />
-                </div>
               </div>
-              <a href="#" class="name-link"
-                ><h4 class="partner-name pt-2 pb-2">Bradley Hunter</h4></a
-              >
-              <p class="partner-info">
-                Based in Chicago. I love playing tennis and loud music.
-              </p>
-            </li>
-            <li
-              class="partners-item flex-man col-sm-8 col-md-5 col-lg-3 m-lg-0"
+            </div>
+            <a href="#" class="name-link"
+              ><h4 class="partner-name">Bradley Hunter</h4></a
             >
-              <div class="img-box">
+            <p class="partner-info">
+              Based in Chicago. I love playing tennis and loud music.
+            </p>
+          </li>
+          <li class="partners-item flex-man order-1">
+            <div class="img-box">
+              <img
+                class="partner-img"
+                src="img/2.jpg"
+                alt="man2"
+                width="122"
+                height="122"
+              />
+              <div class="logo-box logo-chemical">
                 <img
-                  class="partner-img"
-                  src="img/2.jpg"
-                  alt="man2"
-                  width="122"
-                  height="122"
+                  class="logo-partner"
+                  src="img/icons/chemical.png"
+                  alt=""
+                  width="13"
+                  height="16"
                 />
-                <div class="logo-box logo-chemical">
-                  <img
-                    class="logo-partner"
-                    src="img/icons/chemical.png"
-                    alt=""
-                    width="13"
-                    height="16"
-                  />
-                </div>
               </div>
-              <a href="#" class="name-link"
-                ><h4 class="partner-name pt-2 pb-2">Lucas Marsha</h4></a
-              >
-              <p class="partner-info">
-                I get my inspiration from nature and objects around me. I have a
-                passion to colours, typography and skateboards.
-              </p>
-            </li>
-            <li
-              class="partners-item flex-first-girl col-sm-8 col-md-5 mb-md-5 col-lg-3 m-lg-0"
+            </div>
+            <a href="#" class="name-link"
+              ><h4 class="partner-name">Lucas Marsha</h4></a
             >
-              <div class="img-box">
+            <p class="partner-info">
+              I get my inspiration from nature and objects around me. I have a
+              passion to colours, typography and skateboards.
+            </p>
+          </li>
+          <li class="partners-item flex-first-girl">
+            <div class="img-box">
+              <img
+                class="partner-img"
+                src="img/3.jpg"
+                alt="woman1"
+                width="122"
+                height="122"
+              />
+              <div class="logo-box logo-coffee">
                 <img
-                  class="partner-img"
-                  src="img/3.jpg"
-                  alt="woman1"
-                  width="122"
-                  height="122"
+                  class="logo-partner"
+                  src="img/icons/coffee.png"
+                  alt=""
+                  width="16"
+                  height="17"
                 />
-                <div class="logo-box logo-coffee">
-                  <img
-                    class="logo-partner"
-                    src="img/icons/coffee.png"
-                    alt=""
-                    width="16"
-                    height="17"
-                  />
-                </div>
               </div>
-              <a href="#" class="name-link"
-                ><h4 class="partner-name pt-2 pb-2">Heather Walker</h4></a
-              >
-              <p class="partner-info">
-                I'm a happy person that loves cats and climbing on mountains.
-              </p>
-            </li>
-            <li
-              class="partners-item flex-second-girl col-sm-8 col-md-5 col-lg-3 m-lg-0"
+            </div>
+            <a href="#" class="name-link"
+              ><h4 class="partner-name">Heather Walker</h4></a
             >
-              <div class="img-box">
+            <p class="partner-info">
+              I'm a happy person that loves cats and climbing on mountains.
+            </p>
+          </li>
+          <li class="partners-item flex-second-girl order-2">
+            <div class="img-box">
+              <img
+                class="partner-img"
+                src="img/4.jpg"
+                alt="woman2"
+                width="122"
+                height="122"
+              />
+              <div class="logo-box logo-telegram">
                 <img
-                  class="partner-img"
-                  src="img/4.jpg"
-                  alt="woman2"
-                  width="122"
-                  height="122"
+                  class="logo-partner"
+                  src="img/icons/telegram.png"
+                  alt=""
+                  width="17"
+                  height="16"
                 />
-                <div class="logo-box logo-telegram">
-                  <img
-                    class="logo-partner"
-                    src="img/icons/telegram.png"
-                    alt=""
-                    width="17"
-                    height="16"
-                  />
-                </div>
               </div>
-              <a href="#" class="name-link"
-                ><h4 class="partner-name pt-2 pb-2">Bradley Hunter</h4></a
-              >
-              <p class="partner-info">
-                Based in Chicago. I love playing tennis and loud music.
-              </p>
-            </li>
-          </ul>
+            </div>
+            <a href="#" class="name-link"
+              ><h4 class="partner-name">Bradley Hunter</h4></a
+            >
+            <p class="partner-info">
+              Based in Chicago. I love playing tennis and loud music.
+            </p>
+          </li>
+        </ul>
+        <div class="partners-section-button col-12 col-sm-12">
+          <button class="partners-button">
+            See other partners
+          </button>
         </div>
       </section>
-      <div class="partners-section-button container pt-3 pb-5 pt-md-4 pb-md-5">
-        <button class="partners-button col-sm-8 col-md-4 col-lg-3">
-          See other partners
-        </button>
-      </div>
     </main>
   </body>
 </html>
