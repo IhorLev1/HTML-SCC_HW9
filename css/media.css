@@ -12,8 +12,8 @@
     display: block;
     padding: 20px 0;
   }
-
   .partners-item {
+    margin: 0 auto;
     margin-bottom: 30px;
   }
   .partners-section-button {
@@ -63,7 +63,11 @@
     margin-bottom: 38px;
   }
 }
-
+@media (min-width: 768px) {
+  .partners-list {
+    width: 492px;
+  }
+}
 @media (min-width: 942px) {
   .container {
     max-width: 942px;
